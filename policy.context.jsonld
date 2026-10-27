@@ -2,12 +2,11 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-    "cred": "https://www.w3.org/2018/credentials#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "i3b-policy": "https://w3id.org/i3b-mvd/policy/",
-
-    "businessPartnerNumber": "i3b-policy:businessPartnerNumber",
     "MembershipCredential": "i3b-policy:MembershipCredential",
-    "DataAccess.level": "i3b-policy:DataAccess.level"
+    "ManufacturerCredential.part_types": "i3b-policy:ManufacturerCredential.part_types",
+    "MaasPlatformCredential.role.maas-platform": "i3b-policy:MaasPlatformCredential.role.maas-platform",
+    "MaasPlatformCredential.role.buyer": "i3b-policy:MaasPlatformCredential.role.buyer",
+    "MaasPlatformCredential.role.manufacturer": "i3b-policy:MaasPlatformCredential.role.manufacturer"
   }
 }
